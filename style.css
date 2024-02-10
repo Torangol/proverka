@@ -1,0 +1,478 @@
+*{padding: 0;
+    margin: 0;
+}
+
+.block{
+    position: relative;
+
+    max-width: 910px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+h3{
+    
+    font-family: sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+.up_back{
+    background-color: #343434;
+    margin: 0 auto;
+    height: 80px;
+    width: 100%;
+}
+
+.zentr_back{
+    height: 660px;
+    width: 30%;
+
+    position: relative;
+    background-color: #343434;
+
+    margin: 0 auto;
+    margin-top: 2%;
+
+    border-radius: 25px;
+    border: 2px solid #626262;
+}
+
+.right_back{
+    position: absolute;
+    height: 330px;
+    width: 18%;
+
+    position: relative;
+    background-color: #343434;
+
+    margin: 0 auto;
+    margin-top: -34.6%;
+    margin-left: 68%;
+
+    border-radius: 25px;
+    border: 2px solid #626262;
+}
+
+.freands{
+    color: white;
+
+    margin-top: 4%;
+    margin-left: 6%
+}
+
+#input{
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-left: 6%;
+
+    color: white;
+    background-color: #343434;
+
+    border: 2px solid #626262;
+    border-radius: 4px;
+
+    height: 25px;
+    width: 74%;
+
+}
+
+#inputs{
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-left: 6%;
+
+    color: white;
+    background-color: #343434;
+
+    border: 2px solid #626262;
+    border-radius: 4px;
+
+    height: 25px;
+    width: 80%;
+}
+
+#button{
+    margin: 0 auto;
+
+    background-color: #444343;
+    color: white;
+
+    height: 30px;
+    width: 12%;
+
+    border: 2px solid #626262;
+    border-radius: 4px;
+}
+
+#button:hover{
+    color: rgb(161, 161, 161);
+    
+    cursor: pointer;
+}
+
+#buttona{
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-left: 4%;
+
+    background-color: #343434;
+    color: white;
+
+    height: 30px;
+    width: 20%;
+
+    border: 2px solid #626262;
+    border-radius: 4px;
+}
+
+#buttona:hover{
+    color: #757575;
+
+    border-color: #444343;
+
+    cursor: pointer;
+}
+
+#buttons{
+    margin: 0 auto;
+    margin-left: 4%;
+    margin-top: 18px;
+
+    background-color: #626262;
+    color: white;
+
+    height: 35px;
+    width: 458px;
+
+    border: 2px solid #626262;
+    border-radius: 6px;
+}
+
+#buttons:hover{
+    background-color: #757575;
+    color: black;
+
+    cursor: pointer;
+}
+
+#buttonss{
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 500px;
+    margin-top: -64px;
+
+    background-color: #626262;
+    color: white;
+
+    height: 35px;
+    width: 200px;
+
+    border: 2px solid #626262;
+    border-radius: 6px;
+}
+
+#buttonss:hover{
+    background-color: #757575;
+    color: black;
+
+    cursor: pointer;
+}
+
+#perehod{
+    position: absolute;
+    color: white;
+    background-color: #626262;
+
+    height: 24px;
+    width: 120px;
+
+    border-radius: 8px;
+
+    border: none;
+
+    margin-left: 380px;
+    margin-top: -22px;
+}
+
+#perehod:hover{
+    color: black;
+
+    cursor: pointer;
+}
+
+.sort{
+    color: white;
+
+    margin-top: 6%;
+    margin-left: 6%
+}
+
+div h3 {
+    color: white;
+}
+
+div ul li span {
+    color: white;
+}
+
+.mest{
+    color: #838383;
+}
+
+.mesto{
+    color: #838383;
+
+    font-size: 16px;
+
+    margin-top: 6px;
+    margin-left: 16px;
+}
+
+#photo_1{
+    border-radius: 250px;
+
+    height: 80px;
+    width: 80px;
+}
+
+#photo_2{
+    border-radius: 250px;
+
+    height: 80px;
+    width: 80px;
+}
+
+#photo_3{
+    border-radius: 250px;
+
+    height: 80px;
+    width: 80px;
+}
+
+div ul li span:hover{
+    color: #626262;
+
+    cursor: pointer;
+}
+
+#block{
+    margin: 0 auto;
+    margin-left: 6%;
+
+}
+
+div ul li{
+    margin-left: 20%;
+    margin-top: -16%;
+}
+
+div img{
+    position: relative;
+
+    margin-top: 8%;
+}
+
+div ul p{
+    font-size: 14px;
+}
+
+div ul li{
+    line-height: 30px;
+}
+
+#fhon_prof{
+    position: relative;
+    background-color: #343434;
+
+    margin: 0 auto;
+
+
+
+    height: 300px ;
+    width: 900px ;
+
+    border-radius: 25px;
+}
+
+.PHOTO{
+    object-fit: cover;
+
+    height: 180px;
+    width: 900px;
+
+    margin-top: -5px;
+
+    border-radius: 25px;
+}
+
+#photo_prof{
+    position: relative;
+    
+
+    border-radius: 100px;
+
+    height: 160px;
+    width: 160px;
+
+    margin-top: -70px;
+    margin-left: 10px;
+}
+
+#photo_profs{
+
+    border-radius: 100px;
+
+    height: 80px;
+    width: 80px;
+
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.name_prof{
+    margin-top: 8%;
+    margin-left: 15px;
+
+    color: white;
+}
+
+#fhon_photo{
+    position: relative;
+    top: 20px;
+    left: 6px;
+
+    background-color: #343434;
+
+    border-radius: 25px;
+
+    height: 260px;
+    width: 500px;
+}
+
+#aga{
+    margin-left: 20px;
+}
+
+.photofhon{
+    position: static;
+    height: 150px;
+    width: 150px;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.photofhon1{
+    height: 150px;
+    width: 150px;
+
+}
+
+.photofhon2{
+    height: 150px;
+    width: 150px;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#spisok{
+    position: relative;
+    top: 32px;
+    left: 6px;
+
+    border-radius: 15px;
+
+    background-color: #343434;
+
+    height: 60px;
+    width: 500px;
+}
+
+.basa{
+    margin-top: 10px;
+    margin-left: 16px;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50px;
+}
+
+.sapis{
+
+    margin-left: 80px;
+    margin-top: -32px;
+
+
+    color: #838383;
+}
+
+.sapis:hover{
+    color: #c4c4c4;
+
+    cursor: pointer;
+}
+
+#frendas{
+    position: relative;
+    left: 524px;
+    top: -300px;
+
+    background-color: #343434;
+
+    border-radius: 25px;
+
+    height: 400px;
+    width: 380px;
+}
+
+
+.frendall{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    color: #838383;
+
+
+}
+
+.frendalls{
+
+    padding-top: 20px;
+    padding-left: 20px;
+
+    color: #838383;
+
+
+}
+
+#sapsi{
+    position: absolute;
+    left: 6px;
+    top: 668px;
+
+    background-color: #343434;
+
+    border-radius: 25px;
+
+    height: 160px;
+    width: 500px;
+}
+
+@media (min-width = 320px){
+
+}
