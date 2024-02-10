@@ -5,8 +5,6 @@
 .block_menu{
     position: relative;
 
-
-
     max-width: 1100px;
     height: 806px;
 
@@ -50,7 +48,7 @@ li{
 
 .zentr_back{
     height: 660px;
-    width: 50%;
+    width: 550px;
     left: 200px;
 
     position: absolute;
@@ -66,7 +64,7 @@ li{
 .right_back{
     position: absolute;
     height: 330px;
-    width: 28%;
+    width: 330px;
     left: 780px;
 
 
@@ -487,6 +485,8 @@ div ul li{
     width: 500px;
 }
 
-@media (min-width = 320px){
-
+@media (max-width: 720px){
+    .block_menu{
+        max-width: 100px;
+    }
 }
