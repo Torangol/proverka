@@ -159,3 +159,35 @@
 
 const list = document.querySelectorAll("ul")
 console.log(list)
+
+list.forEach(function (list, index) {
+    console.log(`${list} => ${index}`)
+})
+
+let gas = ["ga", "gasdg", "gasaaaaaa"];
+
+let users;
+
+async function getUsers(){
+    const response = await fetch('https://jsonplaceholder.typicode.com/users')
+    return response.json();
+}
+
+const setUserHTML = user =>
+`<li>
+${index}
+<li>`
+
+const SetAllUsers = users => {
+    const list = document.querySelector("ul")
+    users.forEach(user => {
+        list.innerHTML += setUserHTML(user)
+    })
+}
+
+async function actions(){
+    const featchedUser = await getUsers();
+    if(featchedUser.lenght) {
+        SetAllUsers(featchedUser)
+    }
+}
