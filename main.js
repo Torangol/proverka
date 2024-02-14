@@ -1,55 +1,14 @@
-//вывод в консоль
-// console.log()
-
-//let = int
 
 
-// новый стандарт let и const, в старых var
 
-// let id = 10;
-// console.log(id);
-// id = 5;
-// console.log(id);
-
-// const нельзя менять, он 1
-
-// const bar = 10;
-// console.log(bar);
-
-//у var глобальная зона видимости
-// {
-//     let vadas = "asa"
-//     console.log(vadas)
-
-//     var soon = "sson";
+// const time = 17;
+// if (time < 12) {
+//     console.log("Good morning")
+// } else if (time >= 12 && time < 18){
+//     console.log("Good day")
+// } else {
+//     console.log("Good night")
 // }
-
-// console.log(soon)
-
-// null = ничего или пусто
-
-// let userName = 151;
-// userName = null;
-
-// undefined - ничего не задано
-
-// let black;
-// console.log(black)
-
-//оператор typeof
-// let bob = "Bob"
-// console.log(typeof bob)
-
-
-
-const time = 17;
-if (time < 12) {
-    console.log("Good morning")
-} else if (time >= 12 && time < 18){
-    console.log("Good day")
-} else {
-    console.log("Good night")
-}
 
 
 
@@ -57,54 +16,146 @@ if (time < 12) {
 //     alert("Это ваши друзья? Советую найти побольше")
 // }
 
-function SayHi(name){
-    console.log(`Привет ${name}! Как поживаешь?`)
-}
+// function SayHi(name){
+//     console.log(`Привет ${name}! Как поживаешь?`)
+// }
 
-SayHi("KAKASKS");
-
-
-function sum(a, b){
-    const res = a + b;
-    return res;
-}
-
-function min(a, b){
-    const res = a - b;
-    return res;
-}
-
-function doSomething(func){
-    const res = func(x = 10, y = 80)
-    console.log(res);
-}
-
-doSomething(sum);
-doSomething(min);
-
-// самовызывающаяся фуникция
-(function user(name) {
-    console.log(`Hi ${name} My friend`)
-})("MAKAS");
-
-// стрелочная функция
-
-const SayBay = (name) => {
-    console.log(`Hello ${name}! How are you?`)
-}
-SayBay("Ilya");
+// SayHi("KAKASKS");
 
 
-const sea = (a, b) => {
-    const res = a + b;
-    console.log (res);
-}
-sea(1,1);
+// function sum(a, b){
+//     const res = a + b;
+//     return res;
+// }
 
-const sea1 = (a, b) => {
-    const res = a + b;
-    return res;
-}
+// function min(a, b){
+//     const res = a - b;
+//     return res;
+// }
 
-const mark = sea1(1,1);
-console.log(mark);
+// function doSomething(func){
+//     const res = func(x = 10, y = 80)
+//     console.log(res);
+// }
+
+// doSomething(sum);
+// doSomething(min);
+
+// // самовызывающаяся фуникция
+// (function user(name) {
+//     console.log(`Hi ${name} My friend`)
+// })("MAKAS");
+
+// // стрелочная функция
+
+// const SayBay = (name) => {
+//     console.log(`Hello ${name}! How are you?`)
+// }
+// SayBay("Ilya");
+
+
+// const sea = (a, b) => {
+//     const res = a + b;
+//     console.log (res);
+// }
+// sea(1,1);
+
+// const sea1 = (a, b) => {
+//     const res = a + b;
+//     return res;
+// }
+
+// const mark = sea1(1,1);
+// console.log(mark);
+
+// const Ball = 3;
+
+// switch (Ball) {
+//     case 1:
+//         console.log("Хуево братан, тебе 1 (кол)");
+//         break;
+//     case 2:
+//         console.log("Хуево братан, но но хоть не кол, тебе 2");
+//         break;
+//     case 3:
+//         console.log("Красава, ты смог получить 3");
+//         break;
+//     case 4:
+//         console.log("Задрот, у тебя 4");
+//         break;
+//     case 5:
+//         console.log("тебе 5");
+//         break;
+//     default:
+//         console.log("Нет такой оценки, ты меня скамишь")
+//     };
+
+// const arr = ["vav", "vava", "asaa"];
+// arr.push("asaaaa");
+// console.log(arr)
+// arr.splice(1, 2)
+// console.log(arr)
+
+// function massa(a, b){
+//     return a * b;
+// }
+
+// let vivod = massa(10, 22);
+// console.log(vivod);
+
+// /////////////////////////////////////////////
+// console.log("ALL INTELECT down");
+
+
+// let word = "Word";
+// console.log(word);
+
+
+// const userName = "Ilyaa";
+
+// if (userName == "Ilya"){
+//     console.log("Login compleated")
+// } else {
+//     console.log("Not")
+// }
+
+
+// let Vibe = 2;
+
+// switch (Vibe) {
+//     case 1: 
+//         console.log("+ Vibe");
+//         break;
+//     case 2:
+//         console.log("- Vibe");
+//         break;
+//     default:
+//         console.log("I Don,t understand")
+//         break;
+//     };
+
+
+// function BB(a, b){
+//     const GG = a + b; 
+//     return GG;
+// }
+
+// const GGG = BB("Шляпа ", "Шалава");
+// console.log(GGG);
+
+// const Massiv = ["NANA", "GAGA", "DAADA", "hagha", "agavs"];
+// Massiv.push("nnnnnn");
+// console.log(Massiv);
+// Massiv.splice(2, 1);
+// console.log(Massiv);
+// console.log(Massiv[2]);
+
+// for (let item of Massiv) {
+//     console.log(item);
+// }
+
+
+
+
+const list = document.querySelectorAll("ul")
+console.log(list)
